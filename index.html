@@ -441,24 +441,6 @@ body{background:var(--black);color:var(--cream);font-family:'Cormorant Garamond'
   <span class="slabel">B — How It Works</span>
 </section>
 
-<!-- ══ SC: WHERE STORIES FIND YOU ══ -->
-<section id="sc">
-  <div class="scin">
-    <div class="shead">
-      <div class="dline a"></div>
-      <h2 class="sh2 a">Where Stories Find You</h2>
-    </div>
-    <div class="stgrid">
-      <div class="stcard a"><div class="stname">Drama Platforms</div><div class="stdesc">Netflix, Wavve, Coupang Play — every ending reimagined.</div></div>
-      <div class="stcard a d1"><div class="stname">Webtoons</div><div class="stdesc">The panels come alive. Characters step off the page.</div></div>
-      <div class="stcard a d2"><div class="stname">Short-form Content</div><div class="stdesc">Reels, Shorts, TikToks — romance in every scroll.</div></div>
-      <div class="stcard a d3"><div class="stname">Influencers</div><div class="stdesc">Creators who build worlds you want to enter.</div></div>
-      <div class="stcard a d4"><div class="stname">VR Experiences</div><div class="stdesc">Built from the ground up for full immersion.</div></div>
-    </div>
-  </div>
-  <span class="slabel">C — Stories</span>
-</section>
-
 <!-- ══ SD: BEFORE VS AFTER ══ -->
 <section id="sd">
   <div class="sdin">
@@ -491,23 +473,102 @@ body{background:var(--black);color:var(--cream);font-family:'Cormorant Garamond'
   <span class="slabel">D — Transformation</span>
 </section>
 
-<!-- ══ S6: REWRITE ROOM ══ -->
-<section id="s6">
-  <div class="s6in">
-    <div class="shead">
-      <div class="dline a"></div>
-      <h2 class="sh2 a">The Rewrite Room</h2>
-      <p style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:5px;color:var(--rose);opacity:.65;text-transform:uppercase;margin-top:10px;" class="a d2">Five Stations. One Experience.</p>
+<!-- ══ POPUP: THE REWRITE ROOM ══ -->
+<section id="s6" style="background:linear-gradient(180deg,#050507 0%,#0d0015 40%,#1a0035 100%);padding:140px 40px;position:relative;overflow:hidden;">
+
+  <!-- Background glow -->
+  <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:800px;height:800px;background:radial-gradient(ellipse,rgba(139,0,102,.18),transparent 70%);pointer-events:none;"></div>
+
+  <div style="max-width:1100px;margin:0 auto;position:relative;z-index:5;">
+
+    <!-- Coming Soon badge -->
+    <div style="text-align:center;margin-bottom:18px;">
+      <span style="display:inline-block;font-family:'Cinzel',serif;font-size:9px;letter-spacing:5px;text-transform:uppercase;color:#fff;background:var(--rose);padding:6px 20px;" class="a">Pop-up Experience &nbsp;·&nbsp; Coming Soon</span>
     </div>
-    <div class="sts">
-      <div class="st a l"><div class="staN">01</div><div class="staI"><div class="staNm">Drama Ending Wall</div><div class="staD">Iconic endings. The moments that moved millions.</div></div></div>
-      <div class="st a l d1"><div class="staN">02</div><div class="staI"><div class="staNm">Emotion Scan</div><div class="staD">Your heartbeat shapes the story that follows.</div></div></div>
-      <div class="st a l d2"><div class="staN">03</div><div class="staI"><div class="staNm">Character Selection</div><div class="staD">Not a chatbot. A drama protagonist. Made for you.</div></div></div>
-      <div class="st a l d3"><div class="staN">04</div><div class="staI"><div class="staNm">VR First Encounter</div><div class="staD">The world becomes the drama. You are inside it.</div></div></div>
-      <div class="st a l d4"><div class="staN">05</div><div class="staI"><div class="staNm">Invitation Card</div><div class="staD">Your story, sealed and delivered. A beginning worth keeping.</div></div></div>
+
+    <!-- Heading -->
+    <div style="text-align:center;margin-bottom:16px;">
+      <h2 style="font-family:'Cinzel',serif;font-size:clamp(28px,5vw,62px);font-weight:900;letter-spacing:-1px;color:#fff;line-height:1.1;" class="a d1">THE REWRITE ROOM</h2>
     </div>
+    <div style="text-align:center;margin-bottom:70px;">
+      <p style="font-family:'Cormorant Garamond',serif;font-size:clamp(16px,2vw,24px);font-style:italic;color:rgba(245,230,218,.5);letter-spacing:1px;" class="a d2">A VR Pop-up Experience · Enter the story you always wanted.</p>
+    </div>
+
+    <!-- 5 Stations -->
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:3px;margin-bottom:70px;" id="popup-grid">
+
+      <!-- Station 1 -->
+      <div class="a" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,45,120,.12);padding:36px 22px;text-align:center;position:relative;overflow:hidden;transition:border-color .4s,transform .4s;cursor:default;" onmouseenter="this.style.borderColor='rgba(255,45,120,.5)';this.style.transform='translateY(-6px)'" onmouseleave="this.style.borderColor='rgba(255,45,120,.12)';this.style.transform='none'">
+        <div style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;color:rgba(255,45,120,.6);text-transform:uppercase;margin-bottom:20px;">01</div>
+        <div style="width:56px;height:56px;border-radius:50%;border:1px solid rgba(255,45,120,.3);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;background:rgba(139,0,102,.15);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" stroke="rgba(255,45,120,0.8)" stroke-width="1.5"/><path d="M8 21h8M12 17v4" stroke="rgba(255,45,120,0.8)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:#fff;text-transform:uppercase;margin-bottom:12px;">Drama Ending<br>Wall</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(245,230,218,.4);line-height:1.65;">Choose the scene that changed everything.</div>
+      </div>
+
+      <!-- Station 2 -->
+      <div class="a d1" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,45,120,.12);padding:36px 22px;text-align:center;position:relative;overflow:hidden;transition:border-color .4s,transform .4s;cursor:default;" onmouseenter="this.style.borderColor='rgba(255,45,120,.5)';this.style.transform='translateY(-6px)'" onmouseleave="this.style.borderColor='rgba(255,45,120,.12)';this.style.transform='none'">
+        <div style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;color:rgba(255,45,120,.6);text-transform:uppercase;margin-bottom:20px;">02</div>
+        <div style="width:56px;height:56px;border-radius:50%;border:1px solid rgba(255,45,120,.3);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;background:rgba(139,0,102,.15);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 4 13.5 4 8.5C4 5.42 6.69 3 10 3C11.12 3 12 3.9 12 3.9C12 3.9 12.88 3 14 3C17.31 3 20 5.42 20 8.5C20 13.5 12 21 12 21Z" stroke="rgba(255,45,120,0.8)" stroke-width="1.5"/></svg>
+        </div>
+        <div style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:#fff;text-transform:uppercase;margin-bottom:12px;">Emotion Scan<br>Booth</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(245,230,218,.4);line-height:1.65;">Pick the feeling you want to experience in your story.</div>
+      </div>
+
+      <!-- Station 3 -->
+      <div class="a d2" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,45,120,.12);padding:36px 22px;text-align:center;position:relative;overflow:hidden;transition:border-color .4s,transform .4s;cursor:default;" onmouseenter="this.style.borderColor='rgba(255,45,120,.5)';this.style.transform='translateY(-6px)'" onmouseleave="this.style.borderColor='rgba(255,45,120,.12)';this.style.transform='none'">
+        <div style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;color:rgba(255,45,120,.6);text-transform:uppercase;margin-bottom:20px;">03</div>
+        <div style="width:56px;height:56px;border-radius:50%;border:1px solid rgba(255,45,120,.3);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;background:rgba(139,0,102,.15);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="rgba(255,45,120,0.8)" stroke-width="1.5"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7" stroke="rgba(255,45,120,0.8)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:#fff;text-transform:uppercase;margin-bottom:12px;">Character<br>Preview Zone</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(245,230,218,.4);line-height:1.65;">Meet characters that match your emotional preferences.</div>
+      </div>
+
+      <!-- Station 4 -->
+      <div class="a d3" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,45,120,.12);padding:36px 22px;text-align:center;position:relative;overflow:hidden;transition:border-color .4s,transform .4s;cursor:default;" onmouseenter="this.style.borderColor='rgba(255,45,120,.5)';this.style.transform='translateY(-6px)'" onmouseleave="this.style.borderColor='rgba(255,45,120,.12)';this.style.transform='none'">
+        <div style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;color:rgba(255,45,120,.6);text-transform:uppercase;margin-bottom:20px;">04</div>
+        <div style="width:56px;height:56px;border-radius:50%;border:1px solid rgba(255,45,120,.3);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;background:rgba(139,0,102,.15);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 7h18M3 12h18M3 17h18" stroke="rgba(255,45,120,0.8)" stroke-width="1.5" stroke-linecap="round"/><rect x="6" y="4" width="12" height="16" rx="2" stroke="rgba(255,45,120,0.8)" stroke-width="1.5"/></svg>
+        </div>
+        <div style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:#fff;text-transform:uppercase;margin-bottom:12px;">VR First<br>Encounter</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(245,230,218,.4);line-height:1.65;">Step into your story with a short VR experience.</div>
+      </div>
+
+      <!-- Station 5 -->
+      <div class="a d4" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,45,120,.12);padding:36px 22px;text-align:center;position:relative;overflow:hidden;transition:border-color .4s,transform .4s;cursor:default;" onmouseenter="this.style.borderColor='rgba(255,45,120,.5)';this.style.transform='translateY(-6px)'" onmouseleave="this.style.borderColor='rgba(255,45,120,.12)';this.style.transform='none'">
+        <div style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:3px;color:rgba(255,45,120,.6);text-transform:uppercase;margin-bottom:20px;">05</div>
+        <div style="width:56px;height:56px;border-radius:50%;border:1px solid rgba(255,45,120,.3);margin:0 auto 20px;display:flex;align-items:center;justify-content:center;background:rgba(139,0,102,.15);">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 8l1.5 10.5A2 2 0 006.5 20h11a2 2 0 002-1.5L21 8H3z" stroke="rgba(255,45,120,0.8)" stroke-width="1.5"/><path d="M8 8V6a4 4 0 018 0v2" stroke="rgba(255,45,120,0.8)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:#fff;text-transform:uppercase;margin-bottom:12px;">Invitation<br>Card</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(245,230,218,.4);line-height:1.65;">Your story is ready. Take your exclusive invitation.</div>
+      </div>
+
+    </div><!-- /popup-grid -->
+
+    <!-- Coming Soon CTA block -->
+    <div style="max-width:680px;margin:0 auto;text-align:center;padding:60px 50px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,45,120,.2);position:relative;overflow:hidden;" class="a d3">
+      <!-- glow behind -->
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 120%,rgba(139,0,102,.25),transparent 70%);pointer-events:none;"></div>
+      <div style="position:relative;z-index:1;">
+        <p style="font-family:'Cinzel',serif;font-size:9px;letter-spacing:5px;color:rgba(255,45,120,.6);text-transform:uppercase;margin-bottom:20px;">The Experience Is Almost Here</p>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-size:clamp(28px,4vw,52px);font-weight:300;font-style:italic;color:#fff;line-height:1.2;margin-bottom:16px;">Are you ready to rewrite<br>your love story?</h3>
+        <div style="width:40px;height:1px;background:var(--rose);opacity:.5;margin:24px auto;"></div>
+        <p style="font-family:'Cormorant Garamond',serif;font-size:17px;font-style:italic;color:rgba(245,230,218,.45);margin-bottom:36px;line-height:1.7;">Be the first to enter The Rewrite Room.<br>Leave your email and we'll find you — before the story begins.</p>
+        <!-- Email form -->
+        <div style="display:flex;gap:0;max-width:420px;margin:0 auto;">
+          <input type="email" placeholder="Your email address" id="emailInput" style="flex:1;padding:15px 20px;background:rgba(255,255,255,.04);border:1px solid rgba(255,45,120,.25);border-right:none;color:#fff;font-family:'Cormorant Garamond',serif;font-size:16px;font-style:italic;outline:none;" onfocus="this.style.borderColor='rgba(255,45,120,.6)'" onblur="this.style.borderColor='rgba(255,45,120,.25)'">
+          <button onclick="handleEmail()" style="padding:15px 28px;background:var(--rose);border:none;color:#fff;font-family:'Cinzel',serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:background .3s;" onmouseenter="this.style.background='#d41a5e'" onmouseleave="this.style.background='var(--rose)'">Notify Me</button>
+        </div>
+        <p id="emailMsg" style="font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:rgba(255,45,120,.7);margin-top:14px;height:20px;"></p>
+      </div>
+    </div>
+
   </div>
-  <span class="slabel">VI — Rewrite Room</span>
+  <span class="slabel">The Rewrite Room</span>
 </section>
 
 <!-- ══ S7: CHARACTERS ══ -->
@@ -626,31 +687,6 @@ body{background:var(--black);color:var(--cream);font-family:'Cormorant Garamond'
     </div>
   </div>
   <span class="slabel">E — Membership</span>
-</section>
-
-<!-- ══ SF: TESTIMONIALS ══ -->
-<section id="sf">
-  <div class="sfin">
-    <div class="shead">
-      <div class="dline a"></div>
-      <h2 class="sh2 a">What They Said</h2>
-    </div>
-    <div class="tgrid">
-      <div class="tcard a">
-        <div class="tquote">I stopped watching romance stories and started living one. I didn't know the difference until I felt it.</div>
-        <div class="tauth">— Ji Y., Seoul &nbsp;·&nbsp; Premium Member</div>
-      </div>
-      <div class="tcard a d2">
-        <div class="tquote">The ending finally felt like mine. Not the writer's. Not the director's. For the first time — mine.</div>
-        <div class="tauth">— Soo H., Busan &nbsp;·&nbsp; 3 months</div>
-      </div>
-      <div class="tcard a d3">
-        <div class="tquote">I thought I wanted another episode. I actually wanted a different story. Monthly Boyfriend gave me that.</div>
-        <div class="tauth">— Mirae K., Jeju &nbsp;·&nbsp; Premium Member</div>
-      </div>
-    </div>
-  </div>
-  <span class="slabel">F — Stories</span>
 </section>
 
 <!-- ══ S8: DEMO ══ -->
@@ -775,6 +811,20 @@ function startDemo(){
 const dobs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)startDemo();});},{threshold:.35});
 const demoEl=document.getElementById('s8');
 if(demoEl)dobs.observe(demoEl);
+
+function handleEmail(){
+  const inp = document.getElementById('emailInput');
+  const msg = document.getElementById('emailMsg');
+  if(!inp.value || !inp.value.includes('@')){
+    msg.textContent = 'Please enter a valid email address.';
+    msg.style.color = 'rgba(255,100,100,.8)';
+    return;
+  }
+  msg.textContent = "You're on the list. Your story is coming.";
+  msg.style.color = 'rgba(255,45,120,.8)';
+  inp.value = '';
+  inp.placeholder = 'See you inside the story.';
+}
 </script>
 </body>
 </html>
